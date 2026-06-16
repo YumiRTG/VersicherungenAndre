@@ -14,7 +14,7 @@ const modules = [
       'Wiedervereinigung 1990',
       'Agenda 2010 Reformen',
     ],
-    image: '/assets/images/geschichte-header.jpg',
+image: import.meta.env.BASE_URL + 'assets/images/geschichte-header.jpg',
     href: '#geschichte',
   },
   {
@@ -29,7 +29,7 @@ const modules = [
       'Beitragsbemessungsgrenze',
       'Beitragssolidarität',
     ],
-    image: '/assets/images/krankenversicherung-header.jpg',
+image: import.meta.env.BASE_URL + 'assets/images/krankenversicherung-header.jpg',
     href: '#krankenversicherung',
   },
   {
@@ -44,7 +44,7 @@ const modules = [
       'Beitragsbemessungsgrenze',
       'Demografischer Wandel',
     ],
-    image: '/assets/images/rentenversicherung-header.jpg',
+image: import.meta.env.BASE_URL + 'assets/images/rentenversicherung-header.jpg',
     href: '#rentenversicherung',
   },
 ];
