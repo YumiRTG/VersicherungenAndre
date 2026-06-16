@@ -62,7 +62,7 @@ export default function Footer() {
 
         <div className="mt-16 pt-6 border-t border-soft-white/15 flex flex-col md:flex-row justify-between gap-4">
           <span className="text-xs text-soft-white/40">
-            &copy; 2025 Sozialversicherung+ Lernportal
+            &copy; 2026 Andre Miethke Grone
           </span>
           <span className="text-xs text-soft-white/40">
             Quellen: BPB, Deutsche Rentenversicherung, GKV-Spitzenverband
