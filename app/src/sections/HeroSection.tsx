@@ -124,7 +124,7 @@ export default function HeroSection() {
         <p className="hero-subtitle mt-6 text-xl text-soft-white/85 max-w-2xl leading-relaxed opacity-0">
           Von Bismarck bis heute: Lerne die Geschichte, Funktionsweise und Berechnung der deutschen
           Sozialversicherung mit interaktiven Modulen, anschaulichen Erklärungen und
-          Schritt-für-Schritt-Übungen.
+          Schritt-für-Schritt-Übungen für Najmi Parwana.
         </p>
 
         {/* CTAs */}
