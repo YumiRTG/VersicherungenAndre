@@ -162,7 +162,7 @@ export default function KrankenversicherungModule() {
 
                 <div className="mt-6 rounded-2xl overflow-hidden">
                   <img
-                    src="/assets/images/krankenkassen-vergleich.jpg"
+src={`${import.meta.env.BASE_URL}assets/images/krankenkassen-vergleich.jpg`}
                     alt="Beitragsaufteilung Krankenversicherung"
                     className="w-full h-auto"
                     loading="lazy"
@@ -208,7 +208,7 @@ export default function KrankenversicherungModule() {
           <SectionWrapper delay={300}>
             <div className="mt-12 rounded-2xl overflow-hidden">
               <img
-                src="/assets/images/arztbesuch.jpg"
+src={`${import.meta.env.BASE_URL}assets/images/arztbesuch.jpg`}
                 alt="Arztbesuch"
                 className="w-full h-auto"
                 loading="lazy"
