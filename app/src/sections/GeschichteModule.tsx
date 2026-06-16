@@ -10,14 +10,14 @@ const timelineEvents = [
     title: 'Erster deutscher Arbeiterverein',
     description:
       'Der erste deutsche Arbeiterverein wird gegründet. Die Arbeiterschaft organisiert sich in Vereinen, um gegen die schlechten Arbeitsbedingungen und geringen Löhne vorzugehen.',
-    image: '/assets/images/arbeiterverein-1863.jpg',
+image: import.meta.env.BASE_URL + 'assets/images/arbeiterverein-1863.jpg',
   },
   {
     year: '1878',
     title: 'Sozialistengesetz',
     description:
       'Reichskanzler Otto von Bismarck sieht in der erstarkenden Arbeiterbewegung eine Gefahr für den Staat und verbietet die sozialen Vereine mithilfe des sogenannten "Sozialistengesetzes".',
-    image: '/assets/images/bismarck-portrait.jpg',
+image: import.meta.env.BASE_URL + '/assets/images/bismarck-portrait.jpg',    
   },
   {
     year: '1881',
@@ -30,7 +30,7 @@ const timelineEvents = [
     title: 'Bismarcksche Sozialgesetze',
     description:
       'Die Gesetze treten in Kraft und gelten als die Geburtsstunde der deutschen Sozialversicherung. Damit gehört Deutschland zu den ersten Ländern weltweit mit einem staatlichen Sozialversicherungssystem.',
-    image: '/assets/images/sozialgesetze-1883.jpg',
+image: import.meta.env.BASE_URL + '/assets/images/sozialgesetze-1883.jpg',   
   },
   {
     year: '1919',
@@ -67,7 +67,7 @@ const timelineEvents = [
     title: 'Agenda 2010',
     description:
       'Der damalige Bundeskanzler Gerhard Schröder führt mit der "Agenda 2010" umfassende Reformen der Sozialversicherungen durch — hin zu mehr Eigenleistungen und Eigenvorsorge.',
-    image: '/assets/images/agenda-2010.jpg',
+image: import.meta.env.BASE_URL + '/assets/images/agenda-2010.jpg',   
   },
 ];
 
