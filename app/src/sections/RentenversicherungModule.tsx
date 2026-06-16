@@ -181,7 +181,7 @@ export default function RentenversicherungModule() {
               <div className="lg:sticky lg:top-28">
                 <div className="rounded-2xl overflow-hidden">
                   <img
-                    src="/assets/images/rentner-paar.jpg"
+src={import.meta.env.BASE_URL + 'assets/images/rentner-paar.jpg'}
                     alt="Rentnerpaar"
                     className="w-full h-auto"
                     loading="lazy"
@@ -427,7 +427,7 @@ export default function RentenversicherungModule() {
           <SectionWrapper delay={400}>
             <div className="rounded-2xl overflow-hidden">
               <img
-                src="/assets/images/demografie-chart.jpg"
+src={import.meta.env.BASE_URL + 'assets/images/demografie-chart.jpg'}
                 alt="Demografische Entwicklung Deutschland"
                 className="w-full h-auto"
                 loading="lazy"
