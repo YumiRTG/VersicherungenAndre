@@ -186,7 +186,7 @@ export default function GeschichteModule() {
               <div className="lg:sticky lg:top-28">
                 <div className="relative rounded-2xl overflow-hidden">
                   <img
-                    src="/assets/images/industrialisierung-fabrik.jpg"
+src={`${import.meta.env.BASE_URL}assets/images/industrialisierung-fabrik.jpg`}
                     alt="Fabrik im 19. Jahrhundert"
                     className="w-full h-auto object-cover"
                     loading="lazy"
